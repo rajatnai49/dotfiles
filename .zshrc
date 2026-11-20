@@ -4,9 +4,6 @@ plugins=(
   git
   sudo
   history
-  npm
-  node
-  docker
   fzf
   z
   zsh-autosuggestions
@@ -19,7 +16,6 @@ export PATH="$(go env GOPATH)/bin:$PATH"
 
 export JAVA_HOME='/usr/lib/jvm/java-21-openjdk'
 export PATH="$JAVA_HOME/bin:$PATH"
-
 
 export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
@@ -58,3 +54,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
 export PATH="$HOME/bin:$PATH"
+
+# opencode
+export PATH=/home/rajatnai49/.opencode/bin:$PATH
